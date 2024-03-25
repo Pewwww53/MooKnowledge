@@ -90,6 +90,26 @@ public class Planets extends Utils {
                 overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             }
         });
+
+        uranus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent moonsMenu = new Intent(Planets.this, Moons.class);
+                moonsMenu.putExtra("planet", "uranus");
+                Planets.this.startActivity(moonsMenu);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        neptune.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent moonsMenu = new Intent(Planets.this, Moons.class);
+                moonsMenu.putExtra("planet", "neptune");
+                Planets.this.startActivity(moonsMenu);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
     }
 
 }
