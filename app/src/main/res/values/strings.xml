@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MooKnowledge</string>
+    <string name="option1">Reviewer</string>
+    <string name="option2">Flash Cards</string>
+    <string name="option3">Quiz</string>
+    <string name="choose_planets">Choose Planets</string>
+    <string name="earth">Earth</string>
+    <string name="mars">Mars</string>
+    <string name="jupiter">Jupiter</string>
+    <string name="saturn">Saturn</string>
+    <string name="uranus">Uranus</string>
+    <string name="neptune">Neptune</string>
+    <string name="todo">TODO</string>
+    <string name="moon_1">MOON: 1</string>
+    <string name="moons_2">MOONS: 2</string>
+    <string name="back">BACK</string>
+    <string name="moons_95">MOONS: 95</string>
+    <string name="moons_146">MOONS: 146</string>
+    <string name="moons_28">MOONS: 28</string>
+    <string name="moons_16">MOONS: 16</string>
+    <string name="earth_s_moon">Earth\'s Moon</string>
+    <string name="next">NEXT</string>
+    <string name="close">CLOSE</string>
+    <string name="mars_moons">Mars Moons</string>
+    <string name="phobus">Phobus</string>
+    <string name="deimos">Deimos</string>
+    <string name="add">+ ADD</string>
+    <string name="flip">FLIP</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="start">START</string>
+    <string name="see_records">SEE RECORDS</string>
+
+    <string-array name="difficulty_menu">
+        <item>EASY</item>
+        <item>NORMAL</item>
+        <item>HARD</item>
+    </string-array>
+</resources>
